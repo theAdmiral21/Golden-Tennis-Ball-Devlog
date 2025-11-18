@@ -1,3 +1,17 @@
 site_name: The Quest for the Golden Tennis Ball
 theme:
   name: material
+
+docs_dir: docs
+
+plugins:
+  - search
+  - awesome-pages
+  - glightbox
+  - blog:
+      blog_dir: Devlog
+      post_dir: "{blog}/Posts"
+      post_date_format: full
+
+markdown_extensions:
+  - attr_list
