@@ -13,9 +13,12 @@ jobs:
         with:
           python-version: 3.11
       - run: pip install mkdocs-material
-      - run: cd portfolio
-      - run: mkdocs build
+      - run: |
+          pwd
+          ls-la
+          cd portfolio
+          ls-la
       - uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKNE }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
