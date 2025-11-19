@@ -1,0 +1,332 @@
+:root [data-md-color-scheme="gtbLight"] {
+    /* Text colors */
+
+    /* main text */
+    /*Light*/
+    --md-primary-fg-color: #595652;
+    --md-secondary-fg-color: #595652;
+    --md-tertiary-fg-color: #595652;
+
+    /* Backgrounds */
+
+    /* page background */
+    --md-default-bg-color: #595652;
+    /* cards / panels */
+    --md-surface-bg-color: #cfcfcf;
+    /* top navigation */
+    --md-toolbar-bg-color: #ffc800;
+    /* side bar */
+    --md-footer-bg-color: #b7c0e6;
+    --md-sidebar-bg-color: #ffc800;
+
+    /* Headings */
+    --md-heading-color: #000000;
+    --md-text-heading-color: #a67c00;
+    /* footer */
+
+
+    /* Links / accents */
+    --md-accent-fg-color: #a67c00;
+    /* links, highlights */
+    --md-accent-bg-color: #575448;
+    /* optional hover bg for accents */
+
+    /* Borders / dividers */
+    --md-divider-color: #d9caa7;
+    /* horizontal rules, lines */
+
+    /* Buttons */
+    --md-button-bg-color: #ffd633;
+    --md-button-fg-color: #2b2b2b;
+
+    /* Code blocks */
+    --md-code-bg-color: #a67c00;
+    --md-code-fg-color: #2b2b2b;
+
+    /* Footer */
+    --md-footer-fg-color: #ffffff;
+    --md-footer-bg-color: #ffc800;
+}
+
+/* --- Body and main content --- */
+body {
+    background-color: var(--md-default-bg-color);
+    color: var(--md-primary-fg-color);
+}
+
+.md-content,
+.md-main,
+.md-card {
+    background-color: var(--md-surface-bg-color);
+    color: var(--md-primary-fg-color);
+}
+
+.md-sidebar .md-nav__list--toc {
+    display: none;
+}
+
+.md-sidebar__scrollwrap {
+    background-color: var(--md-sidebar-bg-color)
+}
+
+.md-nav {
+
+    border-right: 2px solid #d9caa7;
+}
+
+/* --- Links --- */
+.md-nav__title {
+    color: var(--md-accent-bg-color);
+}
+
+.md-ellipsis {
+    color: var(--md-default-bg-color);
+}
+
+.md-typeset a {
+    color: var(--md-text-heading-color);
+}
+
+a {
+    color: var(--md-accent-fg-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #e6a700;
+}
+
+/* --- Headers --- */
+.md-typeset h1 {
+    color: var(--md-heading-color);
+}
+
+.md-typeset h1 {
+    color: var(--md-heading-color);
+}
+
+.md-typeset h2 {
+    color: var(--md-heading-color);
+}
+
+.md-typeset h3 {
+    color: var(--md-heading-color);
+}
+
+.md-typeset h4 {
+    color: var(--md-heading-color);
+}
+
+h5 {
+    color: var(--md-heading-color);
+}
+
+h6 {
+    color: var(--md-primary-fg-color);
+}
+
+/* --- Code blocks --- */
+code {
+    background-color: var(--md-code-bg-color);
+    color: var(--md-code-fg-color);
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+pre code {
+    display: block;
+    padding: 12px;
+}
+
+/* --- Navigation bar --- */
+.md-header {
+    background-color: var(--md-toolbar-bg-color);
+    color: var(--md-primary-fg-color);
+}
+
+/* --- Footer --- */
+.md-footer {
+    border-color: var(--md-footer-fg-color);
+    background-color: var(--md-footer-bg-color);
+    color: var(--md-primary-fg-color);
+}
+
+/* --- Horizontal rules --- */
+hr {
+    border-color: var(--md-divider-color);
+}
+
+/* --- Optional: card hover effect --- */
+.md-card:hover {
+    background-color: #0000ff;
+}
+
+/* =======================================
+   CUSTOM COLORS FOR GOLDEN TENNIS BALL DEVLOG
+   Applies to Material for MkDocs
+   ======================================= */
+
+/* --- Base colors --- */
+:root [data-md-color-scheme="gtbDark"] {
+    /* Text colors */
+
+    /* main text */
+    --md-primary-fg-color: #ffffff;
+    --md-secondary-fg-color: #ffffff;
+    --md-tertiary-fg-color: #ffffff;
+
+    /* Backgrounds */
+
+    /* page background */
+    --md-default-bg-color: #ffffff;
+    /* cards / panels */
+    --md-surface-bg-color: #595652;
+    /* top navigation */
+    --md-toolbar-bg-color: #a67c00;
+    /* side bar */
+    --md-footer-bg-color: #b7c0e6;
+    --md-sidebar-bg-color: #a67c00;
+
+    /* Headings */
+    --md-heading-color: #ffffff;
+    --md-text-heading-color: #ffc800;
+    /* footer */
+
+
+    /* Links / accents */
+    --md-accent-fg-color: #ffc800;
+    /* links, highlights */
+    --md-accent-bg-color: #575448;
+    /* optional hover bg for accents */
+
+    /* Borders / dividers */
+    --md-divider-color: #d9caa7;
+    /* horizontal rules, lines */
+
+    /* Buttons */
+    --md-button-bg-color: #ffd633;
+    --md-button-fg-color: #2b2b2b;
+
+    /* Code blocks */
+    --md-code-bg-color: #a67c00;
+    --md-code-fg-color: #2b2b2b;
+
+    /* Footer */
+    --md-footer-fg-color: #ffffff;
+    --md-footer-bg-color: #a67c00;
+}
+
+/* --- Body and main content --- */
+body {
+    background-color: var(--md-default-bg-color);
+    color: var(--md-primary-fg-color);
+}
+
+.md-content,
+.md-main,
+.md-card {
+    background-color: var(--md-surface-bg-color);
+    color: var(--md-primary-fg-color);
+}
+
+.md-sidebar .md-nav__list--toc {
+    display: none;
+}
+
+.md-sidebar__scrollwrap {
+    background-color: var(--md-sidebar-bg-color)
+}
+
+.md-nav {
+
+    border-right: 2px solid #d9caa7;
+}
+
+/* --- Links --- */
+.md-nav__title {
+    color: var(--md-accent-bg-color);
+}
+
+.md-ellipsis {
+    color: var(--md-default-bg-color);
+}
+
+.md-typeset a {
+    color: var(--md-text-heading-color);
+}
+
+a {
+    color: var(--md-accent-fg-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #e6a700;
+}
+
+/* --- Headers --- */
+.md-typeset h1 {
+    color: var(--md-heading-color);
+}
+
+.md-typeset h1 {
+    color: var(--md-heading-color);
+}
+
+.md-typeset h2 {
+    color: var(--md-heading-color);
+}
+
+.md-typeset h3 {
+    color: var(--md-heading-color);
+}
+
+.md-typeset h4 {
+    color: var(--md-heading-color);
+}
+
+h5 {
+    color: var(--md-heading-color);
+}
+
+h6 {
+    color: var(--md-primary-fg-color);
+}
+
+/* --- Code blocks --- */
+code {
+    background-color: var(--md-code-bg-color);
+    color: var(--md-code-fg-color);
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+pre code {
+    display: block;
+    padding: 12px;
+}
+
+/* --- Navigation bar --- */
+.md-header {
+    background-color: var(--md-toolbar-bg-color);
+    color: var(--md-primary-fg-color);
+}
+
+/* --- Footer --- */
+.md-footer {
+    border-color: var(--md-footer-fg-color);
+    background-color: var(--md-footer-bg-color);
+    color: var(--md-primary-fg-color);
+}
+
+/* --- Horizontal rules --- */
+hr {
+    border-color: var(--md-divider-color);
+}
+
+/* --- Optional: card hover effect --- */
+.md-card:hover {
+    background-color: #0000ff;
+}

@@ -1,17 +1,13 @@
-# Welcome to MkDocs
+# Chispa and Lola: The Quest for the Golden Tennis Ball
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This site is dedicated to hosting the devlog for the Quest for the Golden Tennis Ball. Follow along with me as I learn what it takes to make a game. I plan to cover everything in the development process from the art to the code. I'll even include some Unity specific scripts for the aspiring game dev.  
+  
+So sit back, relax, and enjoy this journey to make the Quest for the Golden Tennis Ball.  
+  
+Also, before I forget, I'm learning CSS with this website. That means these first few pup-dates are going to be a little bit painful. Thank you for your patience! 
 
-## Commands
+<figure markdown="span">
+![Start Screen](startScreen.png)  
+<figcaption>Welcome to The Quest for the Golden Tennis Ball.</figcaption>
+</figure>
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
