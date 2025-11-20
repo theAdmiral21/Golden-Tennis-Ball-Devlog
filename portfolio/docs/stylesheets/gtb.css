@@ -65,7 +65,7 @@ body {
 .md-nav__list,
 .md-nav__group,
 .md-nav__item {
-    background-color: var(--md-button-bg-color) !important;
+    background-color: var(--md-toolbar-bg-color) !important;
     color: var(--md-primary-fg-color, #222) !important;
 }
 
