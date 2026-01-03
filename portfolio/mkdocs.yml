@@ -1,4 +1,5 @@
 site_name: The Quest for the Golden Tennis Ball
+
 theme:
   name: material
   palette:
@@ -25,18 +26,32 @@ extra:
       link: https://www.instagram.com/goldentennisball/
     - icon: fontawesome/brands/github
       link: https://github.com/theAdmiral21/Golden-Tennis-Ball-Devlog
+    - icon: fontawesome/brands/bluesky
+      link: https://bsky.app/profile/goldentennisball.bsky.social
 
 extra_css:
   - stylesheets/gtb.css
+  - https://unpkg.com/katex@0/dist/katex.min.css
 
+# Serve documentation from 'docs/' folder
 docs_dir: docs
 
 plugins:
-  - search
   - awesome-pages
   - glightbox
+  - search
+
+extra_javascript:
+  # Load Mermaid library
+  - https://unpkg.com/mermaid@10/dist/mermaid.min.js
+  # Initialize Mermaid after DOM is ready
+  - javascripts/mermaid-init.js
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
 
 markdown_extensions:
+  - footnotes
   - attr_list
   - md_in_html
   - pymdownx.blocks.caption
@@ -44,10 +59,18 @@ markdown_extensions:
       title: Site Contents
       permalink: true
       toc_depth: 3
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.arithmatex:
+      generic: true
 
 nav:
   - "Home": "index.md"
   - "Devlog":
       - "Getting Started": "2025/11/18/firstPost.md"
-      # - "Character Controllers": "CharacterController.md"
+      # - "Character Controllers": "2025/12/29/CharacterController.md"
+      - "2026-01-03 Pupdate": "2026/01/03/Pupdate.md"
   - "Contact": "contact.md"

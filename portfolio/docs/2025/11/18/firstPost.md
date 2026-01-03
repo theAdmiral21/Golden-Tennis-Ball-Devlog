@@ -28,7 +28,7 @@ Chispa and Lola are the stars of this game — they are my dogs, and each has th
 
 <figure markdown="span">
 ![Lola Running](LolaRun.gif)  
-<figcaption>Chispa run animation test.</figcaption>
+<figcaption>Lola run animation test.</figcaption>
 </figure>
 
 
