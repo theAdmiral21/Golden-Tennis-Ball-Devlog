@@ -23,7 +23,7 @@ Now before you get too excited, there is a dark side to this update...
 
 <figure markdown="span">
 ![LolaMeme](LolaMeme.png)  
-<figcaption>Lola meets confronts her dark side.</figcaption>
+<figcaption>Lola confronts her dark side.</figcaption>
 </figure>
 
 ## The Dark Side
